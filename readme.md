@@ -27,7 +27,9 @@ npm install form-persist-vanilla
 ## Modo de Uso
 1. Estructura HTML Base
 
-Asegúrate de que tus elementos <input>, <textarea> o <select> tengan asignado el atributo name. La librería utiliza este atributo como llave para identificar y guardar los datos.
+
+Asegúrate de que tus elementos *input*, *textarea* o *select* tengan asignado el atributo name. La librería utiliza este atributo como llave para identificar y guardar los datos.
+
 
 ```
 <form id="registro-form">
