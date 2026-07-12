@@ -29,7 +29,8 @@ npm install form-persist-vanilla
 1. Estructura HTML Base
 Asegúrate de que tus elementos <input>, <textarea> o <select> tengan asignado el atributo name. La librería utiliza este atributo como llave para identificar y guardar los datos.
 
-```bash <form id="registro-form">
+```bash
+<form id="registro-form">
   <input type="text" name="nombre" placeholder="Tu nombre" />
   <input type="email" name="correo" placeholder="Tu correo" />
   <input type="password" name="contrasena" placeholder="Contraseña" />
@@ -60,6 +61,7 @@ miFormulario.addEventListener('submit', (e) => {
   // Al terminar con éxito, limpia el storage y remueve los listeners internos
   formGuardado.clear();
 });
+
 ```
 3. Uso en entornos CommonJS (Node/Bundlers antiguos)
 ```bash
