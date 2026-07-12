@@ -27,7 +27,7 @@ npm install form-persist-vanilla
 
 ## Modo de Uso
 1. Estructura HTML Base
-* Asegúrate de que tus elementos <input>, <textarea> o <select> tengan asignado el atributo name. La librería utiliza este atributo como llave para identificar y guardar los datos.
+Asegúrate de que tus elementos <input>, <textarea> o <select> tengan asignado el atributo name. La librería utiliza este atributo como llave para identificar y guardar los datos.
 
 ```bash <form id="registro-form">
   <input type="text" name="nombre" placeholder="Tu nombre" />
@@ -70,6 +70,5 @@ const persistor = new FormPersist(form, 'mi-llave-unica');
 ```
 
 4. Metodos disponibles
-* clear(): Limpia de forma inmediata el registro del almacenamiento del navegador (localStorage/sessionStorage) y remueve los escuchadores de eventos para liberar memoria.
-
+clear(): Limpia de forma inmediata el registro del almacenamiento del navegador (localStorage/sessionStorage) y remueve los escuchadores de eventos para liberar memoria.
 ---
